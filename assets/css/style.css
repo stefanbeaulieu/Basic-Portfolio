@@ -5,7 +5,7 @@ BODY SECTION
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #fff;
+	background-image: url("../images/background_pattern.gif");
 	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	color: #777;
 }
@@ -19,20 +19,53 @@ HEADER AND FOOTER
 header {
 	background-color: #fff;
 	border-bottom: 2px solid #ccc;
+	padding-left: 100px;
+	margin: 0;
+	width: 100%;
 }
 
 footer {
 	background-color: #666;
+	clear: left;
 }
 
+header, .main_heading, .main_menu {
+	float: left;
+}
+
+.main_menu {
+	padding: 40px 0 0 350px;
+	height: 100%;
+
+}
+
+h1, h2 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	background-color: #4aaaa5;
+	padding-right: 1px;
+	color: #fff;
+}
+
+h1 {
+	width: 200px;
+	padding: 5px;
+	display: inline-block;
+	padding: 20px;
+	margin-bottom: 0;
+}
 
 
 /******************
 BODY SECTION
 ******************/
 
+p {
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
 .container {
 	width: 960px;
+	padding-left: 100px;
 }
 
 .main-bio, .right-menu {
@@ -47,7 +80,16 @@ BODY SECTION
 
 .right-menu {
 	width: 30%;
+	background-color: #fff;
+	border: 2px solid #ddd;
 }
+
+
+
+
+/******************
+LINKS
+******************/
 
 
 
@@ -56,7 +98,15 @@ BODY SECTION
 IMAGES
 ******************/
 
+#headshot {
+	widows: 200px;
+	height: 200px;
+	float: left;
+	padding: 5px;
+}
+
 .thumb {
 	width: 50px;
 	height: 50px;
+	padding: 5px;
 }
