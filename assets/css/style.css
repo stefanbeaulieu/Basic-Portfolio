@@ -68,7 +68,7 @@ h1 {
 }
 
 .sub_heading_border {
-	border-bottom: 1px solid #ddd;
+	border-bottom: 2px solid #ccc;
 	margin-bottom: 20px;
 	padding: 10px 0;
 }
@@ -177,7 +177,7 @@ img {
 
 
 /*********************************
-PAGE: About Me
+PAGE: ABOUT ME
 *********************************/
 
 #headshot {
